@@ -5,7 +5,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hi, \nI'm Syn-Video-Compressor \nYou can Compress Telegram Videos \n\n/help for more details."
+    START_TEXT = "Hi, \nI'm Video-Compressor bot by @Tellybots\nYou can Compress Telegram Videos \n\n/help for more details."
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -46,11 +46,9 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "How to Use Me? Follow These steps! \n\n1. Send me your Telegram Video. \n2. Reply the file - /compress And Persentage \nEg: <code>/compress 50</code> \n\nIf bot didn't respond, contact @synuser"
+        "How to Use Me? Follow These steps! \n\n1. Send me your Telegram Video. \n2. Reply the file - /compress And Persentage \nEg: <code>/compress 50</code> \n\nIf bot didn't respond, contact @Tellybots"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
         "current CHAT ID: <code>{CHAT_ID}</code>"
     )
-
-    
